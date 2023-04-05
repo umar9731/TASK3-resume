@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.maincontent{
+    box-sizing: border-box;
+    height: 350px;
+    width: 1708px;
+    border:  1px solid black;
+    background-color: rgb(80, 77, 77);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+h2 img{
+    height: 190px;
+        width: 190px;
+        border-radius: 100px;
+        border: dotted;
+        color: yellow;
+        margin-top: 45px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    border: dotted;
+    color: yellow;
+}
+
+.linecontainer{
+    box-sizing: border-box;
+    border: 1px solid transparent ;
+    height: 40px;
+    width: 1708px;
+    background-color: rgb(233, 227, 227);
+    width: 100%;
+}
+.namecontainer{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    font-size: 50px;
+    margin-left: 680px;
+    margin-bottom: 500px;
+    width: fit-content;
+    background-color: yellow;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.secondcontent{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.adresscontainer{
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+
+.leftcontent h3{
+    font-size: xx-large;
+}
+
+.container{
+    width: 500px;
+}
+.container .subcontent{
+    justify-content: space-between;
+    display: flex;
+}
+
+.rightcontent h3{
+    font-size: xx-large}
+
